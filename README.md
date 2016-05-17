@@ -2,7 +2,7 @@
 
 17 mai 2016
 
-Le fichier index.html montre l'apparence voulue d'une page Séance. Cet exemple inclut des données provenant de tous les champs possibles.
+La page http://cinemathequefr.github.io/cfv3-43/ montre l'apparence voulue d'une page Séance. Cet exemple inclut des données provenant de tous les champs possibles.
 
 Actuellement, une page Séance affiche moins d'informations sur les items (films / interventions) qui la constituent que les pages Film ou Intervention correspondantes.
 
