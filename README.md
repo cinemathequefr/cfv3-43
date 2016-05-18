@@ -15,11 +15,7 @@ Par exemple, on trouve sur  http://www.cinematheque.fr/film/100519.html un texte
 
 Le template actuel est également insatisfaisant pour ce qui concerne les espacements verticaux, qui ne rendent pas bien lisibles les différents blocs (p ex http://www.cinematheque.fr/seance/22799.html).
 
-
-
 ## Maquette de page Séance modifiée
-
-Nous énumérons ici les différentes données et la façon de les présenter sur la page. L'exemple est visible ici : http://cinemathequefr.github.io/cfv3-43/
 
 ###  Titre des cycles auxquels la séance est rattachée
 
