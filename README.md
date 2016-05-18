@@ -30,23 +30,24 @@ L'affichage actuel est correct, mais il arrive que cette durée ne soit pas sais
 
 * En cas de durée non saisie (ou égale à 0), afficher seulement l'heure de début (Ce problème se manifeste également ailleurs, à vérifier ultérieurement.)
 
-### Titre de la manifestation (éventuel)
+### Bloc Titre + description de la manifestation (éventuel)
+
+La présence d'un titre de manifestation et/ou d'une description de la manifestation génère un bloc.
+
+* Ce bloc, quand il existe, est suivi d'un filet `hr.short`
+
+#### Titre
 
 > Programme 1 : Esthétique du western
 
 * Pour des questions lisibilité, on retire les guillemets CSS qui encadrent actuellement le titre de la manifestation (p ex sur http://www.cinematheque.fr/seance/24675.html).  
 *Cette modification ne concerne pas seulement la page Séance mais tous les emplacement sur le site, elle pourra être faite ultérieurement.*
 
-### Description de la manifestation (éventuel)
+#### Description
 
 > En 1955, <em>La Prisonnière du désert</em> de John Ford (...)
 
-Petits ajustements CSS à faire sur ce bloc :
-
-* Il est séparer du titre de la manifestation par une marge de 20px
-* On lui donne une `margin-bottom` de 40px pour bien le séparer de l'énumération des items qui suit
-* Les éventuels paragraphes à l'intérieur de ce bloc de texte sont séparés verticalement par une marge de 20px
-
+OK, pas de changement.
 
 ### Blocs d'items (film / intervention)
 
