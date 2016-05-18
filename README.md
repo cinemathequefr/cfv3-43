@@ -30,9 +30,9 @@ Nous énumérons ici les différentes données et la façon de les présenter su
 
 ### Heures de début et fin, durée
 
-L'affiche actuel est correct, mais il arrive que cette durée ne soit pas saisie dans le back. Dans ce cas, il ne faut pas affiche comme actuellement une durée de 0 min et une heure de fin égale à l'heure de début.
+L'affichage actuel est correct, mais il arrive que cette durée ne soit pas saisie dans le back.
 
-* En cas de durée non saisie, afficher seulement l'heure de début (Ce problème se manifeste également ailleurs, à vérifier ultérieurement.)
+* En cas de durée non saisie (ou égale à 0), afficher seulement l'heure de début (Ce problème se manifeste également ailleurs, à vérifier ultérieurement.)
 
 ### Titre de la manifestation (éventuel)
 
@@ -41,15 +41,13 @@ L'affiche actuel est correct, mais il arrive que cette durée ne soit pas saisie
 * Pour des questions lisibilité, on retire les guillemets CSS qui encadrent actuellement le titre de la manifestation (p ex sur http://www.cinematheque.fr/seance/24675.html).  
 *Cette modification ne concerne pas seulement la page Séance mais tous les emplacement sur le site, elle pourra être faite ultérieurement.*
 
-(Pas d'autres modifications sur l'en-tête de page)
-
 ### Blocs d'items (film / intervention)
 
-* Entre deux blocs d'items, on ajoute un séparateur `hr.short`
+* Entre les blocs d'items, on ajoute un séparateur `hr.short`
 
 ### Adaptation
 
-> D'après Alan Le May
+> D'après Alan Le May.
 
 * On ajoute le champ adaptation, non présent actuellement.  
 *Attention : les données saisies sont parfois dans un élément `p` qui se retouve importé dans le gabarit. Il faut styler en conséquence pour supprimer cette marge de paragraphe non voulue.*
@@ -58,7 +56,7 @@ L'affiche actuel est correct, mais il arrive que cette durée ne soit pas saisie
 
 > La Prisonnière du désert est un western majeur (...)
 
-* On ajoute ce champ texte. A la différence de la page Film, on lui donne ici un corps de texte plus petit (14px).
+* On ajoute ce champ texte. A la différence de la page Film, on lui donne ici un corps de texte plus petit (14px). Dans cette zone, les paragraphes sont à séparer verticalement par 10px.
 
 ### Indication d'âge
 
@@ -76,7 +74,6 @@ L'indication de durée est actuellement de la forme :
 * Supprimer le label **Durée:**. On affiche directement la durée (comme pour les films).
 
 ### Bloc Intervention : remarque sur l'intervention
-
 
 > Traduction simultanée en anglais
 
