@@ -37,6 +37,17 @@ L'affichage actuel est correct, mais il arrive que cette durée ne soit pas sais
 * Pour des questions lisibilité, on retire les guillemets CSS qui encadrent actuellement le titre de la manifestation (p ex sur http://www.cinematheque.fr/seance/24675.html).  
 *Cette modification ne concerne pas seulement la page Séance mais tous les emplacement sur le site, elle pourra être faite ultérieurement.*
 
+### Description de la manifestation (éventuel)
+
+> En 1955, <em>La Prisonnière du désert</em> de John Ford (...)
+
+Petits ajustements CSS à faire sur ce bloc :
+
+* Il est séparer du titre de la manifestation par une marge de 20px
+* On lui donne une `margin-bottom` de 40px pour bien le séparer de l'énumération des items qui suit
+* Les éventuels paragraphes à l'intérieur de ce bloc de texte sont séparés verticalement par une marge de 20px
+
+
 ### Blocs d'items (film / intervention)
 
 * Entre les blocs d'items, on ajoute un séparateur `hr.short`
@@ -73,7 +84,9 @@ L'indication de durée est actuellement de la forme :
 
 > Traduction simultanée en anglais
 
-* Si une remarque est saisie sur cette intervention pour cette séance. Dans ce cas, il faut l'afficher après la durée, en séparant avec un slash.
+Correspond aux champs Remarque de chaque item sur le détail d'une séance. Ce champ est rarement utilisé pour une intervention, mais il faut le prévoir. Actuellement, cette donnée ne remonte pas sur la page Séance.
+
+* Si une remarque est saisie sur cette intervention pour cette séance, on l'affiche après la durée, en séparant avec un slash.
 
 ### Bloc Intervention : biographie des intervenants
 
