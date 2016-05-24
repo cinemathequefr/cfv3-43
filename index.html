@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Quicksand:300,400,700">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">-->
     <style>
     body {
       color: #222;
@@ -19,6 +20,11 @@
 
     a:link, a:visited { color: inherit; text-decoration: none; }
     a:hover, a:active { color: inherit; text-decoration: underline; }
+
+    a i.fa {
+      font-size: 14px;
+      opacity: 0.75;
+    }
 
     .row {
       width: 1140px;
@@ -49,6 +55,7 @@
     h1 > .sub {
       display: block;
       font-size: 24px;
+      opacity: 0.75;
     }
 
     hr.short {
@@ -69,6 +76,11 @@
     .item .title {
       color: rgb(0, 74, 28);
       font-family: "Source Sans Pro",sans-serif; font-size: 20px; font-weight: 600;
+    }
+
+    .item .sub.title {
+      font-size: 18px;
+      opacity: 0.75;
     }
 
     .item .info p { /* Neutralise la marge verticale des paragraphes */
@@ -96,7 +108,7 @@
 
     .commentaire, .bio {
       margin: 20px 0;
-      font-size: 14px;
+      /*font-size: 14px;*/
     }
 
     .commentaire p, .bio p {
@@ -144,6 +156,7 @@
 
       <div class="item">
         <a href="javascript: void 0;" class="title">La Prisonnière du désert</a>
+        <div class="sub title">(The Searchers)</div>
         <div class="realisateur">John Ford</div>
         <div class="info">
           <div>Etats-Unis / 1955 / 119 min / 35mm / VOSTF</div>
@@ -164,6 +177,7 @@
       <hr class="short">
       <div class="item">
         <a href="javascript: void 0;" class="title">Frigo déménageur</a>
+        <div class="sub title">(Cops)</div>
         <div class="realisateur">John Ford</div>
         <div class="info">
           <div>Etats-Unis / 1922 / 19 min / DCP</div>
@@ -175,8 +189,8 @@
         <div class="synopsis">
           <p>Suite à un quiproquo malheureux, Buster se voit poursuivi par des policiers de plus en plus nombreux.</p>
         </div>
-        <div class="film-age age-6">À partir de 6 ans</div>
-      </div>
+        <div class="film-age age-6">À partir de 6 ans</div
+>      </div>
       <hr class="short">
       <div class="item">
         <a href="javascript: void 0;" class="title">Dialogue avec Matthieu Orléan et Bernard Benoliel</a>
